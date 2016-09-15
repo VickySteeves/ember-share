@@ -14,7 +14,6 @@ A web interface for [SHARE](https://github.com/CenterForOpenScience/SHARE).
 ## Running / Development
 
 * Run the [SHARE](https://github.com/CenterForOpenScience/SHARE) API server at `localhost:8000`
-* Run `elasticsearch` at `localhost:9200` and populate with SHARE data
-  (`./manage.py runbot elasticsearch` in the SHARE root directory)
-* `ember server`
+* Run `elasticsearch` at `localhost:9200` and populate with SHARE data (`./manage.py runbot elasticsearch` in the SHARE root directory)
+* `ember server` or `node_modules/ember-cli/bin/ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
